@@ -886,3 +886,11 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 
 }
+
+.text-gray{
+    font-size: 25px;
+}
+
+.boton-enviar:hover{
+    color: rgb(8, 240, 19);
+}
