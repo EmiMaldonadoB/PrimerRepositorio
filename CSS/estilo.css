@@ -62,7 +62,14 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: 1px 4px 4px rgba(0,0,0,0.85);
     
+}
+h1:hover{
+    transform: translateX(5px);
+    text-shadow: -1px 6px 2px rgb(3 3 3 / 36%);
+    transition: transform .8s;
+    color: red;
 }
 .logo{
     
@@ -204,6 +211,7 @@ ul.slider li:target{
 }
 .menu li a:hover{
     transform: translateY(5px);
+    transition: transform .5s;
     color: black;
     background-color: blanchedalmond;
     
@@ -259,8 +267,8 @@ ul.slider li:target{
 }
 
 .footer:hover{
-    background: rgb(255,218,0);
-    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
+    background: rgb(235,245,7);
+    background: radial-gradient(circle, rgba(235,245,7,0.8099614845938375) 0%, rgba(250,0,0,1) 100%);
 }
 
 footer a img{
@@ -331,7 +339,7 @@ footer a img{
     
     display: grid;
     grid-template-columns: 70vw auto;
-    grid-template-rows: 15% 75% 55% 10%;
+    grid-template-rows: 15% 75% 55% 5%;
     grid-template-areas: 
     "header header"
     "main intro"
@@ -430,7 +438,8 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .table-prod-arm{
-    background-color: rgba(247, 236, 9, 0.6);
+    background: rgb(255,218,0);
+    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
     border-radius: 4px;
     border-style: groove;
     border-radius: 30px 0px 30px 0px;
@@ -452,7 +461,8 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 .table-ortopedia{
     grid-area: orto;
-    background-color: rgba(247, 236, 9, 0.6);
+    background: rgb(255,218,0);
+    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
     border-radius: 4px;
     border-style: groove;
     border-radius: 30px 0px 30px 0px;
@@ -466,7 +476,8 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 .table-fonoau{
     grid-area: fonoau;
-    background-color: rgba(247, 236, 9, 0.6);
+    background: rgb(255,218,0);
+    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
     border-radius: 4px;
     border-style: groove;
     border-radius: 30px 0px 30px 0px;
@@ -480,6 +491,17 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 .imagenes-productos{
     width: 30%;
     height: 40%; 
+    border-radius: 15px;
+
+}
+
+.imagenes-productos:hover{
+    transform: scaleX(1.3);
+    
+    transition: transform 1s;
+    padding-left: 50px;
+    
+    
 }
 
 .tableta-ortopedia{
