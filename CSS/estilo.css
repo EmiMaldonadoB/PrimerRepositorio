@@ -339,7 +339,7 @@ footer a img{
     
     display: grid;
     grid-template-columns: 70vw auto;
-    grid-template-rows: 15% 75% 55% 5%;
+    grid-template-rows: 15% 75% 55% 10%;
     grid-template-areas: 
     "header header"
     "main intro"
